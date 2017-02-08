@@ -1,0 +1,29 @@
+{
+	"routes": [
+		{
+			"title" : "JWT Generator WS",
+			"description" : "JWT Generator provides a mock JWT for user who would like to test endpoint secured with JWT.",
+			"section" : "",
+			"endpoint" : "/jwt",
+			"method" : "post",
+			"library" : "generatejwt.js",
+			"callback" : "generateJWT",
+			"parameters" : {
+				"payload" : {
+					"required" : true,
+					"type" : "string",
+					"regex" : false,
+					"description" : "Mock payload that should be provided in JWT",
+					"example" : "{'sub': '1928191', 'name' : 'John Doe', 'email' : 'john.doe@mycorp.com'}"
+				},
+				"secret" : {
+					"required" : true,
+					"type" : "string",
+					"regex" : false,
+					"description" : "Secret string to encrypt JWT",
+					"example" : "{'secret' : 'MySecretString'}"
+				}
+			}
+		}
+	]
+}

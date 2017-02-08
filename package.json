@@ -1,0 +1,16 @@
+{
+  "name": "jwtgenerator",
+  "version": "1.0.0",
+  "description": "a WS to generate Mock JWT for testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JWT",
+    "Mock",
+    "JWT"
+  ],
+  "author": "Arun Mukherjee",
+  "license": "ISC"
+}
